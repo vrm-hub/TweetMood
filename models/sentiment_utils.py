@@ -23,8 +23,6 @@ import nltk
 from nltk import NaiveBayesClassifier, ConfusionMatrix
 from sklearn.linear_model import LogisticRegression
 
-# so that we can indicate a function in a type hint
-
 nltk.download('punkt')
 import string
 from nltk.stem import WordNetLemmatizer
@@ -78,14 +76,6 @@ def generate_tuples_from_file(training_file_path: str) -> list:
             y.append(int(t[2]))
     f.close()
     return X, y
-
-
-"""
-NOTE: for all of the following functions, we have prodived the function signature and docstring, *that we used*, as a guide.
-You are welcome to implement these functions as they are, change their function signatures as needed, or not use them at all.
-Make sure that you properly update any docstrings as needed.
-"""
-
 
 def metrics_fun(train_data, dev_labels, dev_data, classifier_type=None, nn_model=None, nn_epochs=3, nn_batch_size=32):
     predictions = []
