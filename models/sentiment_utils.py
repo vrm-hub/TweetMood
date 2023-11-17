@@ -1,18 +1,3 @@
-# FIRST: RENAME THIS FILE TO sentiment_utils.py 
-
-# YOUR NAMES HERE:
-
-
-"""
-Felix Muzny
-CS 4/6120
-Homework 4
-Fall 2023
-
-Utility functions for HW 4, to be imported into the corresponding notebook(s).
-
-Add any functions to this file that you think will be useful to you in multiple notebooks.
-"""
 # fancy data structures
 from collections import Counter
 import numpy as np
