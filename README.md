@@ -25,7 +25,7 @@ To set up TweetMood for development and testing, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/TweetMood.git
+   git clone https://github.com/vrm-hub/TweetMood.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -62,8 +62,8 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Contact
 
-- Project Maintainer: [Your Name] - email@example.com
-- Project Link: https://github.com/your-username/TweetMood
+- Project Maintainer: Vinay Rajajagopal Menon - vinay97.pro@gmail.com
+- Project Link: https://github.com/vrm-hub/TweetMood
 
 ---
 
